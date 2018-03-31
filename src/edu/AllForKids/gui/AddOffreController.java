@@ -101,6 +101,8 @@ public class AddOffreController implements Initializable {
     @FXML
     private void Reset(ActionEvent event) {
     }
+
+   
     
     
     

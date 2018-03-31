@@ -21,8 +21,8 @@
       </TableView>
       <AnchorPane fx:id="Popup" layoutX="35.0" layoutY="7.0" prefHeight="67.0" prefWidth="97.0" style="-fx-background-color: rgba(0,0,0,0.3);">
          <children>
-            <JFXButton fx:id="Modify" buttonType="RAISED" prefHeight="33.0" prefWidth="97.0" text="Modifier" textFill="WHITE" />
-            <JFXButton fx:id="Delete" layoutY="36.0" prefHeight="25.0" prefWidth="97.0" text="Supprimer" textFill="WHITE" />
+            <JFXButton fx:id="Modify" buttonType="RAISED" onAction="#updateOffre" prefHeight="33.0" prefWidth="97.0" text="Modifier" textFill="WHITE" />
+            <JFXButton fx:id="Delete" layoutY="36.0" onAction="#DeleteOffre" prefHeight="25.0" prefWidth="97.0" text="Supprimer" textFill="WHITE" />
          </children></AnchorPane>
    </children>
 </AnchorPane>
